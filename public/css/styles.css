@@ -69,7 +69,7 @@ header .form {
     margin: 0 10px;
     justify-content: center;
     align-self: center;
-    max-height: 24px;
+    max-height: 30px;
 }
 
 header .form .input{
@@ -79,6 +79,8 @@ header .form .input{
     padding: 2px;
     border-radius: 5px;
     overflow: hidden;
+    height: 30px;
+    width: 100%;
 }
 
 header .form .submit {
@@ -86,8 +88,8 @@ header .form .submit {
     color: var(--gris-oscuro);
     border-radius: 5px;
     padding: 2px;
-    align-self: center;
     margin: 2px;
+    align-self: center;
 }
 
 h2 {
@@ -319,11 +321,15 @@ div .opcion-2 label {
     border-radius: 5px;
     padding: 6.5px;
     border: 0px;
-    background: blue;
+    background: var(--celeste);
     color: #FFF;
     margin: auto;
     min-width: 200px;
     max-width: 40%;
+}
+
+.submitlogin:hover {
+    background-color: #0022AA;
 }
 
 main form {
@@ -454,5 +460,15 @@ main form {
 
     .product {
         max-width: 21%;
+    }
+
+    footer .main-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer .main-footer i:hover {
+        color: var(--verde);
     }
 }
