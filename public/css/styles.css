@@ -1,0 +1,458 @@
+:root {
+    --amarillo: #EAC926;
+    --azul: #03264C;
+    --celeste: #1259c3;
+    --gris-oscuro: #666;
+    --gris-claro: #ebebeb;
+    --verde: #39b54a;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--gris-claro);
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+}
+
+footer section {
+    padding: 10px 0;
+}
+
+header {
+    background-color: var(--amarillo);
+    box-sizing: border-box;
+    padding: 5%;
+}
+
+header li {
+    list-style: none;
+    font-size: 12px;
+}
+
+header nav {
+    display: none;
+}
+
+header .compra-en-cuotas {
+    display: block;
+    text-align: center;
+}
+
+header .mobile-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header .top-header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .form {
+    display: flex;
+    margin: 0 10px;
+    justify-content: center;
+    align-self: center;
+    max-height: 24px;
+}
+
+header .form .input{
+    background-color: #FFF;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+header .form .submit {
+    background-color: #FFF;
+    color: var(--gris-oscuro);
+    border-radius: 5px;
+    padding: 2px;
+    align-self: center;
+    margin: 2px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 10px;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+main section article div {
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: #fff;
+    position: relative;
+    border-top: 1px solid var(--gris-claro);
+}
+
+main section article img {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main section article i {
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: var(--verde);
+    border: 1px solid var(--verde);
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 12px;
+}
+
+.banner {
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+}
+
+.burger-menu {
+    text-align: center;
+}
+
+.compra-en-cuotas {
+    margin: auto
+}
+
+.descripcion {
+    font-size: 16px;
+    color: var(--gris-oscuro);
+    display: none;
+    margin-top: 20px;
+}
+
+.descuento {
+    font-size: 16px;
+    color: var(--verde);
+}
+
+.fa-credit-card {
+    color: var(--celeste);
+    font-size: 2em;
+    text-align: center;
+}
+
+.fa-bars {
+    color: white;
+    background-color: var(--celeste);
+    font-size: 1.5em;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+.fa-gift{
+    color: var(--celeste);
+    font-size: 2em;
+    text-align: center;
+}
+
+.fa-id-card {
+    color: black;
+}
+
+.fa-shopping-basket {
+    color: black;
+}
+
+.fa-sign-out-alt {
+    color: black;
+}
+
+.fa-user-shield {
+    color: var(--celeste);
+    font-size: 2em;
+    text-align: center;
+}
+
+.last-visit {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 40%;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.precio {
+    font-size: 18px;
+}
+
+.product {
+    margin: 10px;
+    background-color: #FFF;
+}
+
+#copyright {
+    text-align: left;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.campo label {
+    margin-bottom: 5px;
+}
+
+.control {
+    width: 100%;
+    padding: 8px 8px;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 10px;
+}
+
+label .form-titulos {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+div .fecha-tag {
+    text-align: left;
+}
+
+input .fecha {
+    width: 50%;
+    text-align: center;
+}
+
+div .opciones-1 {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.opcion {
+    font-size: 15px;
+    padding: 0px 10px;
+}
+
+div .foto {
+    display: flex;
+    flex-direction: column;
+}
+
+input .foto-archivo {
+    font-size: 10px;
+}
+
+.opcion-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+div .opcion-2 label {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.control-2 {
+    margin: 10px 10px;
+}
+
+.campo-boton {
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.resetlogin {
+    border-radius: 5px;
+    padding: 6.5px;
+    border: 0px;
+    background: #a93c2d;
+    color: #FFF;
+    margin: auto;
+    justify-self: center;
+    min-width: 200px;
+    max-width: 40%;
+}
+
+.submitlogin {
+    border-radius: 5px;
+    padding: 6.5px;
+    border: 0px;
+    background: blue;
+    color: #FFF;
+    margin: auto;
+    min-width: 200px;
+    max-width: 40%;
+}
+
+main form {
+    margin-top: 15px;
+}
+
+@media (min-width: 425px) {
+    section article {
+        box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 );
+    }
+
+    .burger-menu {
+        display: none;
+    }
+    
+    .descripcion {
+        display: block;
+    }
+
+    .logo {
+        width: 30%;
+        min-width: 150px;
+    }
+    
+    header {
+        padding: 10px;
+    }
+
+    header .form {
+        width: 200px;
+    }
+
+    header .mobile-header {
+        min-width: 50%;
+        justify-content: flex-start;
+    }
+
+    header .top-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    header section .compra-en-cuotas {
+        text-align: right;
+        max-width: 250px;
+    }
+
+    header .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar li {
+        margin: 5px;
+    }
+
+    .product {
+        max-width: 42%;
+    }
+}
+
+@media (min-width: 769px) {
+    section article {
+        box-shadow: 0px 0px 10px rgb( 100 , 100 , 100 );
+    }
+
+    .burger-menu {
+        display: none;
+    }
+    
+    .descripcion {
+        display: block;
+    }
+
+    header .form {
+        margin: 0 30px;
+    }
+
+    .logo {
+        width: 250px;
+    }
+     
+    header {
+        padding: 10px;
+    }
+
+    header .form {
+        width: 300px;
+    }
+
+    header .mobile-header {
+        min-width: 50%;
+        justify-content: flex-start;
+    }
+
+    header .top-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    header section .compra-en-cuotas {
+        text-align: right;
+        width: 350px;
+    }
+
+    header .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar li {
+        margin: 5px;
+    }
+
+    .product {
+        max-width: 21%;
+    }
+}
